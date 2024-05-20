@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Bootstrap 5 Slider With Text Animation</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link href="styles.css" rel="stylesheet">
+  <link rel="stylesheet" href="footer.css">
+  <link rel="stylesheet" href="header.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="about.css">
+  <link rel="stylesheet" href="faq.css">
+</head>
+<body>
+<header>
+	<nav class="navbar">
+		<label for="menu-toggle" class="hamburger-btn">Menu</label>
+		<a href="#" class="logo">
+			<img src="logo.png" alt="Munchify Logo">
+			<h2>Munchify</h2>
+		</a>
+		<input type="checkbox" id="menu-toggle" style="visibility: hidden;"> 
+		<ul class="links">
+			<label for="menu-toggle" class="close-btn ">close</label>
+			<li><a href="#">Home</a></li>
+			<li><a href="#port">Portfolio</a></li>
+			<li><a href="#abouttt">About us</a></li>
+			<li><a href="login.html">Login</a></li>
+			<li><a href="#FAQ">FAQ</a></li>
+		</ul>
+	</nav>
+</header>
+	<div class="carousel slide" data-bs-ride="carousel" id="carouselExampleIndicators">
+		<div class="carousel-indicators">
+			<button aria-label="Slide 1" class="active" data-bs-slide-to="0" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 2" data-bs-slide-to="1" data-bs-target="#carouselExampleIndicators" type="button"></button> <button aria-label="Slide 3" data-bs-slide-to="2" data-bs-target="#carouselExampleIndicators" type="button"></button>
+		</div>
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<img alt="..." class="d-block w-100" src="burger.JPEG">
+				<div class="carousel-caption">
+					<h5 class="animated bounceInRight" style="animation-delay: 1s">Burger</h5>
+					<p class="animated bounceInLeft d-none d-md-block" style="animation-delay: 2s">Say cheese(Burgers)!</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="pizza.JPEG">
+				<div class="carousel-caption">
+					<h5 class="animated bounceInRight" style="animation-delay: 1s">Pizza</h5>
+					<p class="animated bounceInLeft d-none d-md-block" style="animation-delay: 2s">It's Pizza o'clock</p>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img alt="..." class="d-block w-100" src="panipuri.JPEG">
+				<div class="carousel-caption">
+					<h5 class="animated bounceInRight" style="animation-delay: 1s">Pani puri</h5>
+					<p class="animated bounceInLeft d-none d-md-block" style="animation-delay: 2s">Love at first bite</p>
+				</div>
+			</div>
+		</div><button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-prev-icon"></span> <span class="visually-hidden">Previous</span></button> <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carouselExampleIndicators" type="button"><span aria-hidden="true" class="carousel-control-next-icon"></span> <span class="visually-hidden">Next</span></button>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js">
+	</script> 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js">
+	</script>
+    
+    <div class="container" id="port">
+        <section id="about">
+            <h1>About Me</h1>
+			<h2 id="one">Mirthula</h2>
+        <p id="two">Student | Aspiring Developer</p>
+            <p>I'm a student passionate about web development and computer science.</p>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li class="project">
+                    <h3>Student Grade Tracker</h3>
+                    <p>An application to track and manage student grades.</p>
+                    <a href="#">View Project</a>
+                </li>
+                <li class="project">
+                    <h3>Personal Website</h3>
+                    <p>My personal website showcasing my projects and skills.</p>
+                    <a href="#">View Project</a>
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Java</li>
+            </ul>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>Bachelor's in Computer Science - MOP Vaishnav College for women  (Expected Graduation: 2025)</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: mirthulabavasree@gmail.com</p>
+            <p>Phone: 8608058338</p>
+        </section>
+    </div>
+	<br><br>
+	<div class="container-fluid" id="abouttt">
+		<section class="about">
+		  <h2>About Us</h2>
+		  <p>We are passionate about food and strive to bring you the best flavors and quality with every bite.</p>
+		  <p>Our team of culinary experts carefully curates our menu to offer a diverse selection of dishes, from comfort foods to gourmet delights, ensuring there's something for everyone to enjoy.</p>
+		  <p>At Munchify, we believe in the power of good food to bring joy and comfort to your day. Whether you're craving a hearty meal or a light snack, we've got you covered.</p>
+		  <p>Our commitment to quality extends beyond our food. We work closely with local farmers and suppliers to source the freshest ingredients, supporting our community and reducing our environmental impact.</p>
+		  <p>Order from Munchify today and experience the convenience of great food delivered fast.</p>
+		</section>
+	  </div>
+	  <br><br><br><br>
+	  <div class="container-fluid" id="FAQ">
+		<section class="faq">
+			<h1>FAQ</h1>
+		  <p>Find answers to commonly asked questions about Munchify.</p>
+		  <div class="question">
+			<h3>How do I place an order?</h3>
+			<p>To place an order, simply browse our menu, select the items you'd like to order, and proceed to checkout. You can choose to have your order delivered to your doorstep or pick it up from our location.</p>
+		  </div>
+		  <div class="question">
+			<h3>Do you offer delivery?</h3>
+			<p>Yes, we offer delivery within our delivery area. Delivery fees may apply based on your location.</p>
+		  </div>
+		  <div class="question">
+			<h3>Can I customize my order?</h3>
+			<p>Yes, you can customize your order. Simply specify your preferences in the special instructions box during checkout.</p>
+		  </div>
+		  <div class="question">
+			<h3>How can I pay for my order?</h3>
+			<p>We accept payment via credit/debit card and cash on delivery.</p>
+		  </div>
+		</section>
+	  </div>
+  <footer>
+    <div class="footerContainer">
+        <div class="socialIcons">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        <div class="footerNav">
+            <ul><li><a href="">Review</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">Signature dishes</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li><a href="">Our Team</a></li>
+            </ul>
+        </div>
+        
+    </div>
+    <div class="footerBottom">
+        <p>Copyright &copy;2024; Designed by <span class="designer">Mirthula</span></p>
+    </div>
+</footer>
+</body>
+</html>
