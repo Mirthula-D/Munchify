@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(p.jpeg);
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    color: white;
+}
+h1, h2 {
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 1rem;
+}
+.project {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+}
+.one{
+    background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+.two{
+    background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
